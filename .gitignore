@@ -192,3 +192,23 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# PyCharm
+.idea/
+
+# Entorno virtual
+.venv/
+
+# Archivos de entrada/salida
+input/
+output/
+
+# CSVs
+*.csv
+
+# Bytecode de Python
+__pycache__/
+*.py[cod]
+
+# Variables de entorno
+.env
